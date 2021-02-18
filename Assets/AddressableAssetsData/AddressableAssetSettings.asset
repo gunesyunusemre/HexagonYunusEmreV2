@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
+  m_Name: AddressableAssetSettings
+  m_EditorClassIdentifier: 
+  m_DefaultGroup: 519efc9119fcc594b949270fcb0044fa
+  m_OptimizeCatalogSize: 0
+  m_BuildRemoteCatalog: 1
+  m_BundleLocalCatalog: 0
+  m_DisableCatalogUpdateOnStart: 0
+  m_IgnoreUnsupportedFilesInBuild: 0
+  m_UniqueBundleIds: 0
+  m_maxConcurrentWebRequests: 500
+  m_ContiguousBundles: 0
+  m_RemoteCatalogBuildPath:
+    m_Id: 4b3b7ef4fe6d8644eb89ce04ba5a75c3
+  m_RemoteCatalogLoadPath:
+    m_Id: 4c06aaeb187da3f4eb3a1242d1669694
+  m_overridePlayerVersion: 
+  m_GroupAssets:
+  - {fileID: 11400000, guid: 1d03db94800986e4a811f65dbb408038, type: 2}
+  - {fileID: 11400000, guid: e9b44f0c0aaa5c04c80cb3417e568ca0, type: 2}
+  - {fileID: 11400000, guid: a8b50e583625b5e41b534d3db0efdce5, type: 2}
+  m_BuildSettings:
+    m_CompileScriptsInVirtualMode: 0
+    m_CleanupStreamingAssetsAfterBuilds: 1
+    m_LogResourceManagerExceptions: 1
+    m_BundleBuildPath: Temp/com.unity.addressables/AssetBundles
+  m_ProfileSettings:
+    m_Profiles:
+    - m_InheritedParent: 
+      m_Id: b9a4ee7fd89600342b83dc8ca2e9072c
+      m_ProfileName: Default
+      m_Values:
+      - m_Id: 7a9f91ffb55d6c94e95e546570102869
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: dab3bfed3eda3204488ba42f03bd1118
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: 31d33a610801be348828d8e1e62196eb
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: 4b3b7ef4fe6d8644eb89ce04ba5a75c3
+        m_Value: ServerData/[BuildTarget]
+      - m_Id: 4c06aaeb187da3f4eb3a1242d1669694
+        m_Value: http://localhost/[BuildTarget]
+    - m_InheritedParent: 
+      m_Id: 0488a2c5ff9890f4b8c59b0fa8c7eb88
+      m_ProfileName: windows
+      m_Values:
+      - m_Id: 7a9f91ffb55d6c94e95e546570102869
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: dab3bfed3eda3204488ba42f03bd1118
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: 31d33a610801be348828d8e1e62196eb
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: 4b3b7ef4fe6d8644eb89ce04ba5a75c3
+        m_Value: ServerData/[BuildTarget]
+      - m_Id: 4c06aaeb187da3f4eb3a1242d1669694
+        m_Value: https://hexfall.blob.core.windows.net/windows
+    - m_InheritedParent: 
+      m_Id: 069ba540d8e8d4040b58b7ca81229c07
+      m_ProfileName: android
+      m_Values:
+      - m_Id: 7a9f91ffb55d6c94e95e546570102869
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: dab3bfed3eda3204488ba42f03bd1118
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: 31d33a610801be348828d8e1e62196eb
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: 4b3b7ef4fe6d8644eb89ce04ba5a75c3
+        m_Value: ServerData/[BuildTarget]
+      - m_Id: 4c06aaeb187da3f4eb3a1242d1669694
+        m_Value: https://hexfall.blob.core.windows.net/android
+    m_ProfileEntryNames:
+    - m_Id: 7a9f91ffb55d6c94e95e546570102869
+      m_Name: BuildTarget
+      m_InlineUsage: 0
+    - m_Id: dab3bfed3eda3204488ba42f03bd1118
+      m_Name: LocalBuildPath
+      m_InlineUsage: 0
+    - m_Id: 31d33a610801be348828d8e1e62196eb
+      m_Name: LocalLoadPath
+      m_InlineUsage: 0
+    - m_Id: 4b3b7ef4fe6d8644eb89ce04ba5a75c3
+      m_Name: RemoteBuildPath
+      m_InlineUsage: 0
+    - m_Id: 4c06aaeb187da3f4eb3a1242d1669694
+      m_Name: RemoteLoadPath
+      m_InlineUsage: 0
+    m_ProfileVersion: 1
+  m_LabelTable:
+    m_LabelNames:
+    - default
+    - hexagonLevelScene
+    - bombLevelScene
+    - hexagonAnotherScene
+    - bombAnotherScene
+    - hexagonAddressable
+  m_SchemaTemplates: []
+  m_GroupTemplateObjects:
+  - {fileID: 11400000, guid: 6e5afd728322f0143b88eab5621a8ff9, type: 2}
+  m_InitializationObjects: []
+  m_CertificateHandlerType:
+    m_AssemblyName: 
+    m_ClassName: 
+  m_ActivePlayerDataBuilderIndex: 3
+  m_DataBuilders:
+  - {fileID: 11400000, guid: 9150679cb6d08bf4ba97b94feb55bc5c, type: 2}
+  - {fileID: 11400000, guid: b5bed4455a989624f88982f1aa9a4cd1, type: 2}
+  - {fileID: 11400000, guid: 4b2179decc41acf4bb2be237d8093a2e, type: 2}
+  - {fileID: 11400000, guid: 94c117564c57a284c87003a951af9319, type: 2}
+  m_ActiveProfileId: b9a4ee7fd89600342b83dc8ca2e9072c
+  m_HostingServicesManager:
+    m_HostingServiceInfos: []
+    m_Settings: {fileID: 11400000}
+    m_NextInstanceId: 0
+    m_RegisteredServiceTypeRefs: []
