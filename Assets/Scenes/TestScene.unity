@@ -220,7 +220,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &586854735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -239,6 +239,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e875dfe310155a4458295e35e3efacf4, type: 2}
   - {fileID: 11400000, guid: 0d1914dbfdc08ec4f868f116807e4630, type: 2}
   - {fileID: 11400000, guid: f71f545ba02d0af4db5897473629a391, type: 2}
+  _boardSettings: {fileID: 0}
   Parent: {fileID: 586854736}
 --- !u!4 &586854736
 Transform:

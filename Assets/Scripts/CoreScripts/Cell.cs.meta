@@ -3,7 +3,13 @@ guid: 7ecd555b752312a46a397fd56e05598f
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - _cellSettings: {fileID: 11400000, guid: ed6a996646c672244b1097849cc63301, type: 2}
+  - selectedBackground: {instanceID: 0}
+  - _circleCollider2D: {instanceID: 0}
+  - _boxCollider2D: {instanceID: 0}
+  - _rigidbody2D: {instanceID: 0}
+  - bombMoveDownText: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

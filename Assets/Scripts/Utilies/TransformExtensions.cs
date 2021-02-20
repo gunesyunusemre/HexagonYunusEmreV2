@@ -11,7 +11,8 @@ public static class TransformExtensions
     public static IEnumerator Turn(this Transform t, Cell target, Cell other, float speed, 
         Vector3 direction, Vector3 midPoint, Cell[] selectedItems)
     {
-        var tPos = t.transform.position;//targets[0]
+
+        var tPos = t.position;//targets[0]
         var targetPos = target.transform.position;//targets[1]
         var nextPos = other.transform.position;//targets[2]
 

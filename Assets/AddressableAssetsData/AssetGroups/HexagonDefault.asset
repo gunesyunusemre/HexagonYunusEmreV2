@@ -10,13 +10,53 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: AnotherScene
+  m_Name: HexagonDefault
   m_EditorClassIdentifier: 
-  m_GroupName: AnotherScene
+  m_GroupName: HexagonDefault
   m_Data:
     m_SerializedData: []
   m_GUID: c191aa1fc8c634642b021bb9abe10786
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 1f48aac8f7d1f624098be62a53e7f596
+    m_Address: Blue
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 5583680671127570776, guid: 1f48aac8f7d1f624098be62a53e7f596,
+      type: 3}
+    m_TargetAsset: {fileID: 5583680671127570776, guid: 1f48aac8f7d1f624098be62a53e7f596,
+      type: 3}
+  - m_GUID: 9108192f5b3727146b10e0b7ba6c09d1
+    m_Address: Green
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 5583680671127570776, guid: 9108192f5b3727146b10e0b7ba6c09d1,
+      type: 3}
+    m_TargetAsset: {fileID: 5583680671127570776, guid: 9108192f5b3727146b10e0b7ba6c09d1,
+      type: 3}
+  - m_GUID: 42014e401879ccd4da34415b41798f8c
+    m_Address: Pink
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 5583680671127570776, guid: 42014e401879ccd4da34415b41798f8c,
+      type: 3}
+    m_TargetAsset: {fileID: 5583680671127570776, guid: 42014e401879ccd4da34415b41798f8c,
+      type: 3}
+  - m_GUID: 54e456ed7e678c84c8312d5d7a90b146
+    m_Address: Red
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 5583680671127570776, guid: 54e456ed7e678c84c8312d5d7a90b146,
+      type: 3}
+    m_TargetAsset: {fileID: 5583680671127570776, guid: 54e456ed7e678c84c8312d5d7a90b146,
+      type: 3}
+  - m_GUID: e49fa0fa7082a5b44bcbfd9e40d0d589
+    m_Address: Yellow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 5583680671127570776, guid: e49fa0fa7082a5b44bcbfd9e40d0d589,
+      type: 3}
+    m_TargetAsset: {fileID: 5583680671127570776, guid: e49fa0fa7082a5b44bcbfd9e40d0d589,
+      type: 3}
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: d0d6eb5ae40ac0e48a27d7dd8000d82b, type: 2}
   m_SchemaSet:

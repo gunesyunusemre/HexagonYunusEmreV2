@@ -40,6 +40,11 @@ namespace CoreScripts
             {
                 boardController = this;
             }
+
+            _boardSettings.IsSelect = false;
+            _boardSettings.CanPlay = true;
+            _boardSettings.IsGameOver = false;
+            
             Cell.GameOverEventHandler += GameOver;
         }
 
@@ -241,9 +246,7 @@ namespace CoreScripts
             List<Cell> upMatch = MatchUtilies.SearchUp(item, _boardSettings.Cells, _boardSettings.Column, _boardSettings.Row);
             List<Cell> downMatch = MatchUtilies.SearchDown(item, _boardSettings.Cells, _boardSettings.Column, _boardSettings.Row);
             List<Cell> leftRightMatch = MatchUtilies.SearchLeftRight(item, _boardSettings.Cells, _boardSettings.Column, _boardSettings.Row);
-            //left
-            //right
-        
+
             if (upMatch.Count >= 3 && upMatch.Count > downMatch.Count)
             {
                 //Debug.Log("Up!");
@@ -384,7 +387,7 @@ namespace CoreScripts
         
             //**Save**********
             if (QuickSaveEventHandler != null) QuickSaveEventHandler();
-            SaveBoard();
+           // SaveBoard();
             //****************
         }
 

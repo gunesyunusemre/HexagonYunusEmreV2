@@ -58,7 +58,7 @@ public class Player : MonoBehaviour
 
         //PlayerPrefs.DeleteAll();
 
-        bombCounter=PlayerPrefs.GetInt("bomb");
+        //bombCounter=PlayerPrefs.GetInt("bomb");
         score= PlayerPrefs.GetInt("score");
         moveCounter=PlayerPrefs.GetInt("moveCounter");
         highScore= PlayerPrefs.GetInt("highScore");
@@ -88,7 +88,7 @@ public class Player : MonoBehaviour
         PlayerPrefs.SetInt("score", score);
         PlayerPrefs.SetInt("moveCounter", moveCounter);
         //Debug.Log(PlayerPrefs.GetInt("bomb"));
-        PlayerPrefs.SetInt("bomb", bombCounter);
+        //PlayerPrefs.SetInt("bomb", bombCounter);
         //Debug.Log(PlayerPrefs.GetInt("bomb"));
         PlayerPrefs.Save();
     }

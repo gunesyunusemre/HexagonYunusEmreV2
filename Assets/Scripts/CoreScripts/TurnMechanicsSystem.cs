@@ -54,9 +54,7 @@ namespace CoreScripts
             isSelect = _boardSettings.IsSelect;
             canPlay = _boardSettings.CanPlay;
             isGameOver = _boardSettings.IsGameOver;
-
-            /*selectedHex = BoardController.boardController.SelectedHex;
-            selectedDomain = BoardController.boardController.SelectedDomain;*/
+            
             selectedHex = _boardSettings.SelectedHex;
             selectedDomain = _boardSettings.SelectedDomain;
         
@@ -101,7 +99,8 @@ namespace CoreScripts
         {
             _boardSettings.IsSelect = false;
             _boardSettings.CanPlay = false;
-        
+            
+            
             Cell[] targets = TurnUtilies.GetTarget(angle, selectedHex, selectedDomain, _boardSettings.Column);
         
             if (angle>0)

@@ -387,7 +387,7 @@ GameObject:
   - component: {fileID: 402838093}
   - component: {fileID: 402838094}
   m_Layer: 0
-  m_Name: CreateAdressables
+  m_Name: CreateAdressablesCells
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -896,8 +896,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _boardSettings: {fileID: 11400000, guid: bc5388cee0522a145b610def7062fcfc, type: 2}
-  delayBetweenMatches: 1
-  domainRadius: 0.511
 --- !u!4 &1824066336
 Transform:
   m_ObjectHideFlags: 0

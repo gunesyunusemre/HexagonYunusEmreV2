@@ -53,8 +53,8 @@ namespace UI.MainMenu
                     SceneManager.LoadScene("LevelScene");
                     break;
                 case "Settings":
-                    SelectSetting();
-                    //Debug.Log("Settings");
+                    //SelectSetting();
+                    Debug.Log("Settings");
                     break;
                 case "QuitGame":
                     //Debug.Log("QuitGame");
