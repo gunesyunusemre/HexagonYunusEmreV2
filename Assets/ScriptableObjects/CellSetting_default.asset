@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 641f16b8303844f449c3937f84707925, type: 3}
+  m_Name: CellSetting_default
+  m_EditorClassIdentifier: 
+  isBomb: 0
+  _cornerParent: {fileID: 2877339632956846896, guid: e2e3970153e41e446bf9626b7c2e3a7f,
+    type: 3}
+  _corners:
+  - {fileID: 5386166511199914368, guid: 3938164a3a1f8204b9acc01b3aad31cd, type: 3}
+  - {fileID: 1736312923704769923, guid: 0de1901e4ec201b4dae61442f7c8fdb6, type: 3}
+  - {fileID: 7995596924049156723, guid: 70fe8150adda94b45a95d6d5932bbc03, type: 3}
+  - {fileID: 4775651375946280413, guid: 8958e56c5c5a29b41a5ce76c8c3bd4bd, type: 3}
+  - {fileID: 5047724178243864464, guid: 7a2d8ddf5115a124faa254e5ef0d42b4, type: 3}
+  - {fileID: 3162428152566387926, guid: 646deb730ba22ed468100fa235d62f39, type: 3}
+  _selectedBackground: {fileID: 2662775908735698987, guid: 45765e350807e3b4ca72a050ccfda404,
+    type: 3}
